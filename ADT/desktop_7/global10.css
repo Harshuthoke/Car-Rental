@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --bold-type24: "Plus Jakarta Sans";
+
+  /* font sizes */
+  --bold-type24-size: 24px;
+  --medium-type16-size: 16px;
+  --bold-type32-size: 32px;
+  --bold-type20-size: 20px;
+  --medium-type18-size: 18px;
+  --medium-type14-size: 14px;
+
+  /* Colors */
+  --color-whitesmoke: #f6f7f9;
+  --secondary-200: #c3d4e9;
+  --color-lightsteelblue-100: rgba(195, 212, 233, 0.4);
+  --secondary-500: #1a202c;
+  --secondary-600: #131825;
+  --secondary-300: #90a3bf;
+  --primary-0: #fff;
+  --information-600: #3d81db;
+  --secondary-400: #596780;
+  --primary-500: #3563e9;
+
+  /* Gaps */
+  --gap-86xl: 105px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+}

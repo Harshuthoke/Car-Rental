@@ -1,0 +1,427 @@
+.image-icon,
+.like-icon {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+.image-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 90px;
+  object-fit: cover;
+}
+.profil-notification {
+  position: absolute;
+  top: 40px;
+  left: 1172px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.button,
+.logo {
+  position: absolute;
+  height: 44px;
+}
+.logo {
+  top: 40px;
+  left: 60px;
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 148px;
+}
+.button {
+  top: 0;
+  left: 0;
+  border-radius: 70px;
+  background-color: var(--primary-0);
+  border: 1px solid var(--color-lightsteelblue-100);
+  box-sizing: border-box;
+  width: 492px;
+}
+.search-something-here {
+  position: absolute;
+  top: 12px;
+  left: 64px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 149px;
+  height: 20px;
+}
+.search,
+.search-normal-icon,
+.vuesaxlinearfilter-icon {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+}
+.search,
+.vuesaxlinearfilter-icon {
+  left: 448px;
+}
+.search {
+  top: 40px;
+  left: 272px;
+  width: 492px;
+  height: 44px;
+  text-align: justify;
+  font-size: var(--medium-type14-size);
+  color: var(--secondary-400);
+}
+.booking-confirmation-child,
+.nav-bar-top {
+  position: absolute;
+  background-color: var(--primary-0);
+}
+.nav-bar-top {
+  top: 0;
+  left: 0;
+  border: 1px solid var(--color-lightsteelblue-100);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 124px;
+  overflow: hidden;
+  font-size: var(--bold-type32-size);
+  color: var(--primary-500);
+}
+.booking-confirmation-child {
+  top: 200px;
+  left: 61px;
+  border-radius: var(--br-3xs);
+  width: 891px;
+  height: 413px;
+}
+.re-schedule {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 119px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.booking-confirmation-item,
+.button-rental {
+  position: absolute;
+  border-radius: var(--br-3xs);
+}
+.button-rental {
+  top: 528px;
+  right: 540px;
+  border: 1px solid var(--primary-500);
+  box-sizing: border-box;
+  width: 140px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--primary-500);
+}
+.booking-confirmation-item {
+  top: 662px;
+  left: 61px;
+  background-color: var(--primary-0);
+  width: 891px;
+  height: 235px;
+}
+.vehicle-number-rma1234 {
+  position: absolute;
+  height: 1.95%;
+  width: 19.65%;
+  top: 36.91%;
+  left: 11.81%;
+  font-size: var(--medium-type18-size);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.span {
+  font-size: var(--bold-type20-size);
+}
+.call-us-on-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.call-us-on-container,
+.email-us-on-container {
+  position: absolute;
+  height: 1.95%;
+  width: 36.18%;
+  top: 79.2%;
+  left: 7.78%;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: var(--medium-type18-size);
+}
+.email-us-on-container {
+  top: 75%;
+}
+.royal-park-plaza {
+  margin: 0;
+}
+.a-1-royal-park-container {
+  height: 10.64%;
+  width: 19.65%;
+  top: 44.53%;
+  left: 11.81%;
+  font-size: var(--medium-type18-size);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.a-1-royal-park-container,
+.am-7pm,
+.booking-date,
+.need-our-help,
+.pick-up-address {
+  position: absolute;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+.am-7pm {
+  height: 5.08%;
+  width: 22.57%;
+  top: 35.64%;
+  left: 40.07%;
+  font-size: var(--medium-type18-size);
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  text-align: right;
+}
+.booking-date,
+.need-our-help,
+.pick-up-address {
+  height: 4.49%;
+  width: 23.61%;
+  top: 40.43%;
+  left: 11.81%;
+  font-size: var(--bold-type20-size);
+  letter-spacing: -0.03em;
+  color: var(--secondary-600);
+}
+.booking-date,
+.need-our-help {
+  top: 68.36%;
+  left: 7.78%;
+}
+.booking-date {
+  top: 32.42%;
+  left: 38.89%;
+  text-align: right;
+}
+.tick-circle-icon {
+  position: absolute;
+  top: 230px;
+  left: 97px;
+  width: 56px;
+  height: 56px;
+}
+.booking-confirmed,
+.nissan-gt- {
+  position: absolute;
+  top: 246px;
+  left: 170px;
+  font-size: var(--bold-type24-size);
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  display: flex;
+  color: var(--information-600);
+  align-items: center;
+  width: 260px;
+  height: 24px;
+}
+.nissan-gt- {
+  top: 329px;
+  font-size: var(--bold-type32-size);
+  color: var(--secondary-500);
+  width: 367px;
+  height: 40px;
+}
+.booking-confirmation-inner {
+  position: absolute;
+  top: 200px;
+  left: 992px;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-0);
+  width: 386px;
+  height: 413px;
+}
+.div,
+.total {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 116px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.div {
+  font-weight: 600;
+  color: var(--secondary-500);
+  text-align: right;
+}
+.subtotal {
+  position: absolute;
+  top: 329px;
+  left: 1015px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-86xl);
+  color: var(--secondary-300);
+}
+.subtotal-child {
+  position: relative;
+  border-top: 1px solid var(--secondary-200);
+  box-sizing: border-box;
+  width: 351px;
+  height: 1px;
+}
+.subtotal1 {
+  position: absolute;
+  top: 365px;
+  left: 1015px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-86xl);
+  color: var(--secondary-300);
+}
+.div2 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  width: 116px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.subtotal2 {
+  position: absolute;
+  top: 401px;
+  left: 1015px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-86xl);
+  color: var(--secondary-300);
+}
+.div3 {
+  position: relative;
+  font-size: var(--bold-type24-size);
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  font-weight: 600;
+  color: var(--secondary-500);
+  text-align: right;
+  display: flex;
+  align-items: center;
+  width: 116px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.subtotal3 {
+  top: 467px;
+  left: 1015px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-86xl);
+  color: var(--secondary-300);
+}
+.bg,
+.paid,
+.subtotal3 {
+  position: absolute;
+}
+.bg {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke);
+  width: 346px;
+  height: 56px;
+}
+.paid {
+  top: 16px;
+  left: 122px;
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 121px;
+  height: 24px;
+}
+.apply-now,
+.payment-summary {
+  position: absolute;
+  font-size: var(--bold-type24-size);
+  color: var(--secondary-500);
+}
+.apply-now {
+  top: 528px;
+  left: 1015px;
+  width: 346px;
+  height: 56px;
+  text-align: center;
+}
+.payment-summary {
+  top: 239px;
+  left: 1018px;
+  letter-spacing: -0.03em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 315px;
+  height: 24px;
+}
+.line-div {
+  position: absolute;
+  top: 303.5px;
+  left: 111.5px;
+  border-top: 1px solid var(--secondary-200);
+  box-sizing: border-box;
+  width: 805px;
+  height: 1px;
+}
+.booking-confirmation {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--medium-type16-size);
+  color: var(--secondary-400);
+  font-family: var(--bold-type24);
+}

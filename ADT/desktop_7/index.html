@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global8.css" />
+    <link rel="stylesheet" href="./index8.css" />
+    <style>
+        /* Style for the form */
+        .custom-form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            /* Grey background */
+            border-radius: 10px;
+        }
+
+        /* Style for form sections */
+        .pick-up, .drop-off, .locations, .locations2, .date, .time, .date2, .time2 {
+            margin-bottom: 10px;
+        }
+
+        /* Style for section labels */
+        .pick-up1, .drop-off1, .locations1 {
+            font-weight: bold;
+        }
+
+        /* Style for input fields */
+        .custom-form input[type="text"],
+        .custom-form input[type="radio"],
+        .custom-form input[type="date"],
+        .custom-form input[type="time"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid ;
+            border-radius: 5px;
+        }
+
+        /* Style for the "Continue to Payment" button */
+        .custom-form .centered-submit {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff; /* Blue color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px; /* Adjust as needed */
+        }
+
+        /* Change button color on hover */
+        .custom-form .centered-submit:hover {
+            background-color: #0056b3; /* Darker blue color on hover */
+        }
+
+        /* Style for the "Continue to payment" text */
+        .custom-form .continue-to-payment {
+            display: block;
+            text-align: center;
+        }
+    </style>
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@500;600;700&display=swap"
+    />
+</head>
+  <body>
+    <div class="desktop-8">
+      <div class="nav-bar-top">
+        <div class="profil-notification">
+          <img class="like-icon" alt="" src="./public8/like.svg" />
+
+          <img class="like-icon" alt="" src="./public8/notification.svg" />
+
+          <img class="like-icon" alt="" src="./public8/settings.svg" />
+
+          <div class="like-icon">
+            <img class="image-icon" alt="" src="./public8/image@2x.png" />
+          </div>
+        </div>
+        <b class="logo">MORENT</b>
+        <div class="search">
+          <div class="button"></div>
+          <div class="search-something-here">Search something here</div>
+          <img
+            class="search-normal-icon"
+            alt=""
+            src="./public8/searchnormal.svg"
+          />
+
+          <img
+            class="vuesaxlinearfilter-icon"
+            alt=""
+            src="./public8/vuesaxlinearfilter.svg"
+          />
+        </div>
+      </div>
+      <div class="rental-summary">
+        <div class="rental-summary1">
+          <b class="rental-summary2">Rental Summary</b>
+          <div class="prices-may-change">
+            Prices may change depending on the length of the rental and the
+            price of your rental car.
+          </div>
+        </div>
+        <img class="look-icon" alt="" src="./public8/look.svg" />
+
+        <div class="car-name">
+          <b class="nissan-gt-">Nissan GT - R</b>
+          <div class="review">
+            <div class="review-star">
+              <img
+                class="ic-actions-star-icon"
+                alt=""
+                src="./public8/icactionsstar.svg"
+              />
+
+              <img
+                class="ic-actions-star-icon"
+                alt=""
+                src="./public8/icactionsstar.svg"
+              />
+
+              <img
+                class="ic-actions-star-icon"
+                alt=""
+                src="./public8/icactionsstar.svg"
+              />
+
+              <img
+                class="ic-actions-star-icon"
+                alt=""
+                src="./public8/icactionsstar.svg"
+              />
+
+              <img
+                class="ic-actions-star-icon"
+                alt=""
+                src="./public8/icactionsstar1.svg"
+              />
+            </div>
+            <div class="reviewer">440+ Reviewer</div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="subtotal">
+          <div class="subtotal1">Subtotal</div>
+          <div class="div">$80.00</div>
+        </div>
+        <div class="tax">
+          <div class="subtotal1">Tax</div>
+          <div class="div">$0</div>
+        </div>
+        <div class="apply-now">
+          <div class="bg"></div>
+          <div class="apply-promo-code">Apply promo code</div>
+          <div class="apply-now1">Apply now</div>
+        </div>
+        <div class="total-price">
+          <div class="total-rental-price">
+            <b class="rental-summary2">Total Rental Price</b>
+            <div class="overall-price-and">
+              Overall price and includes rental discount
+            </div>
+          </div>
+          <b class="b">$80.00</b>
+        </div>
+      </div>
+      <div class="rental-info">
+        <div class="rental-info1">
+          <b class="rental-summary2">Rental Info</b>
+          <div class="please-select-your">Please select your rental date</div>
+        </div>
+        <div class="step-2-of">Step 2 of 4</div>
+        <form action="process_form8.php" method="post" class="custom-form">
+          <div class="pick-up">
+              <div class="mark">
+                  <br><div class="mark1"></div>
+              </div>
+              <div class="pick-up1">Pick - Up</div><br>
+          </div>
+          <div class="locations">
+              <br><div class="locations1">Location</div>
+              <div class="select-your-city">
+                  <label><input type="radio" name="pickup_location" value="Location 1" >  Location 1</label>
+                  <label><input type="radio" name="pickup_location" value="Location 2" > Location 2</label>
+                  <!-- Add more location options as needed -->
+              </div>
+          </div>
+          <div class="date-time-container">
+              <div class="date">
+                  <br><div class="date1">Date</div>
+                  <div class="select-your-city">
+                      <input type="date" name="pickup_date" required>
+                  </div>
+              </div>
+              <div class="time">
+                  <br><br><div class="date1">Time</div>
+                  <div class="select-your-city">
+                      <input type="time" name="pickup_time" required><br><br>
+                  </div><br>
+              </div><br>
+          </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <div class="drop-off">
+              <div class="mark2">
+                <br><div class="mark3"></div><br>
+              </div>
+              <div class="drop-off1">Drop - Off</div>
+          </div>
+          <div class="locations2">
+              <br><div class="locations1">Location</div>
+              <div class="select-your-city">
+                  <label><input type="radio" name="dropoff_location" value="Location 1"> Location 1</label>
+                  <label><input type="radio" name="dropoff_location" value="Location 2"> Location 2</label>
+                  <!-- Add more location options as needed -->
+              </div>
+          </div>
+          <div class="date2">
+              <br><div class="date1">Date</div>
+              <div class="select-your-city">
+                  <input type="date" name="dropoff_date" required>
+              </div>
+          </div>
+          <div class="time2">
+              <br><br><div class="date1">Time</div>
+              <div class="select-your-city">
+                  <input type="time" name="dropoff_time" required>
+              </div>
+          </div>
+          <input type="submit" value="Continue to Payment" class="centered-submit">
+          
+      </form>
+  
+    </div>
+  </body>
+</html>

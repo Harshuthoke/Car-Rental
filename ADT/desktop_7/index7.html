@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global7.css" />
+    <link rel="stylesheet" href="./index7.css" />
+    <style>
+      /* CSS for centering the submit button */
+      .centered-submit {
+          text-align: center;
+          margin-top: 350px;
+          margin-left: 25px; /* Adjust as needed */
+      }
+  </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-8">
+      <div class="nav-bar-top">
+        <div class="profil-notification">
+          <img class="like-icon" alt="" src="./public/like.svg" />
+
+          <img class="like-icon" alt="" src="./public/notification.svg" />
+
+          <img class="like-icon" alt="" src="./public/settings.svg" />
+
+          <div class="like-icon">
+            <img class="image-icon" alt="" src="./public/image@2x.png" />
+          </div>
+        </div>
+        <b class="logo">MORENT</b>
+        <div class="search">
+          <div class="button"></div>
+          <div class="search-something-here">Search something here</div>
+          <img
+            class="search-normal-icon"
+            alt=""
+            src="./public/searchnormal.svg"
+          />
+
+          <img
+            class="vuesaxlinearfilter-icon"
+            alt=""
+            src="./public/vuesaxlinearfilter.svg"
+          />
+        </div>
+      </div>
+      <div class="rental-summary">
+        <div class="rental-summary1">
+          <b class="rental-summary2">Rental Summary</b>
+          <div class="prices-may-change">
+            Prices may change depending on the length of the rental and the
+            price of your rental car.
+          </div>
+        </div>
+        <img class="look-icon" alt="" src="./public/look.svg" />
+
+        <div class="car-name">
+          <b class="nissan-gt-">Nissan GT - R</b>
+          <div class="review">
+            <div class="review-star">
+              <img
+                class="ic-actions-star-icon"
+                alt=""
+                src="./public/icactionsstar.svg"
+              />
+
+              <img
+                class="ic-actions-star-icon"
+                alt=""
+                src="./public/icactionsstar.svg"
+              />
+
+              <img
+                class="ic-actions-star-icon"
+                alt=""
+                src="./public/icactionsstar.svg"
+              />
+
+              <img
+                class="ic-actions-star-icon"
+                alt=""
+                src="./public/icactionsstar.svg"
+              />
+
+              <img
+                class="ic-actions-star-icon"
+                alt=""
+                src="./public/icactionsstar1.svg"
+              />
+            </div>
+            <div class="reviewer">440+ Reviewer</div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="subtotal">
+          <div class="subtotal1">Subtotal</div>
+          <div class="div">$80.00</div>
+        </div>
+        <div class="tax">
+          <div class="subtotal1">Tax</div>
+          <div class="div">$0</div>
+        </div>
+        <div class="apply-now">
+          <div class="bg"></div>
+          <div class="apply-promo-code">Apply promo code</div>
+          <div class="apply-now1">Apply now</div>
+        </div>
+        <div class="total-price">
+          <div class="total-rental-price">
+            <b class="rental-summary2">Total Rental Price</b>
+            <div class="overall-price-and">
+              Overall price and includes rental discount
+            </div>
+          </div>
+          <b class="b">$80.00</b>
+        </div>
+      </div>
+      <div class="rental-info">
+        <div class="rental-info1">
+          <b class="rental-summary2">Billing Info</b>
+          <div class="please-select-your">Please select your billing date</div>
+        </div>
+        <div class="step-2-of">Step 1 of 4</div>
+        
+        <!-- Form for user information -->
+        <form action="process_form.php" method="post">
+          <div class="locations">
+              <div class="locations1">Name</div>
+              <div class="select-your-city">
+                  
+                  <input type="text" name="name" placeholder="Your Name" required class="textarea">
+              </div>
+          </div>
+          <div class="date">
+              <div class="date1">Phone Number</div>
+              <div class="select-your-city">
+                  
+                  <input type="tel" name="phone_number" placeholder="Phone Number" required class="textarea">
+              </div>
+          </div>
+          <div class="time">
+              <div class="date1">Address</div>
+              <div class="select-your-city">
+                  
+                  <input type="text" name="address" placeholder="Address" required>
+              </div>
+          </div>
+          <div class="town">
+              <div class="town1"><b>Town/City</b></div>
+              <div class="select-your-city">
+                  
+                  <input type="text" name="town_city" placeholder="Town or City" required>
+              </div>
+          </div>
+          <input type="submit" value="Continue to Payment" class="centered-submit">
+      </form>
+      <!-- End of the form -->
+        
+    </div>
+  </body>
+</html>
